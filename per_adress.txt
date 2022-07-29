@@ -1,0 +1,13 @@
+java.lang.Error: *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** 
+Version '2020.3.16f1 (049d6eca3c44)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'armeabi-v7a' 
+Build fingerprint: 'Xiaomi/pine/pine:10/QKQ1.191014.001/V12.5.1.0.QCMINXM:user/release-keys' 
+Revision: '0' ABI: 'arm' Timestamp: 2022-07-27 22:46:19-0400 pid: 2323, tid: 2718, 
+uid: 10150 signal 11 (SIGSEGV), 
+code 1 (SEGV_MAPERR), fault addr 0x60 Cause: null pointer dereference r0 00000048 r1 00000000 r2 0000009a r3 00000010 r4 0eec61a0 
+r5 01000100 r6 00000002 r7 66009ca0 r8 00000011 r9 00000000 r10 00000000 r11 01000100 ip a6c09ce8 sp 5b2cae70 lr 706d6fa8 pc 706d6fa8 
+backtrace: 
+ 
+#00 pc 0000000005063dc0 /data/app/~~AJWwLuY-tpHVe1uphFK17w==/com.custom.app-TR-MkMNwYqMVI-1sD_XJBw==/lib/arm64/libil2cpp.so (BuildId: 96b1b1a752e832ef31ca9c66c2c5bc8bed3749ca) 
+#01 pc 0000000005063c04 /data/app/~~AJWwLuY-tpHVe1uphFK17w==/com.custom.app-TR-MkMNwYqMVI-1sD_XJBw==/lib/arm64/libil2cpp.so (BuildId: 96b1b1a752e832ef31ca9c66c2c5bc8bed3749ca) 
+#02 pc 0000000005063af4 /data/app/~~AJWwLuY-tpHVe1uphFK17w==/com.custom.app-TR-MkMNwYqMVI-1sD_XJBw==/lib/arm64/libil2cpp.so (BuildId: 96b1b1a752e832ef31ca9c66c2c5bc8bed3749ca) 
+#03 pc 000000000506697c /data/app/~~AJWwLuY-tpHVe1uphFK17w==/com.custom.app-TR-MkMNwYqMVI-1sD_XJBw==/lib/arm64/libil2cpp.so (BuildId: 96b1b1a752e832ef31ca9c66c2c5bc8bed3749ca) 
